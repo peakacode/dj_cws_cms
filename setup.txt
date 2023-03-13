@@ -1,0 +1,67 @@
+Todolist:
+-Create virtual environment, 
+--install django 
+--create project
+-Base pages
+--Templates
+-Authentication
+-Simple Dashboard
+-Create new leads
+-Change and delete leads
+-Convert leads to clients
+-Change and delete clients
+-Implement solution for Teams
+-Implement a payment solution / Monhtly recurring payments
+-Deploy
+
+==========================
+01 VENV/DJANGO/PROJECT 
+==========================
+# Create virtual environment
+>
+virtualenv venv
+
+# activate venv
+>
+source venv/bin//activate
+
+# Install django 
+>
+pip install django
+
+# create django project
+>
+django-admin startproject main .
+
+
+===
+eval "$(ssh-agent -s)"
+ssh-add key.txt
+
+echo "# dj_cws_cms" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add original git@github.com:peakacode/dj_cws_cms.git
+git push -u original main
+===
+
+# Create project
+
+
+
+
+
+
+-Base pages
+--Templates
+-Authentication
+-Simple Dashboard
+-Create new leads
+-Change and delete leads
+-Convert leads to clients
+-Change and delete clients
+-Implement solution for Teams
+-Implement a payment solution / Monhtly recurring payments
+-Deploy
