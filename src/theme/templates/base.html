@@ -6,10 +6,12 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta http-equiv="X-UA-Compatible" content="ie=edge">
-		{% comment %} {% tailwind_css %} {% endcomment %}
+		{% tailwind_css %}
 	</head>
-
-	<body class="bg-gray-400 font-serif leading-normal tracking-normal">
+	<body class="bg-blue-500 font-serif leading-normal tracking-normal">
+		<nav class="bg-teal-500 py-4">
+			<a href="/">Test CRM</a>
+		</nav>
 		{% block content %}
 		{% endblock content %}
 	</body>
