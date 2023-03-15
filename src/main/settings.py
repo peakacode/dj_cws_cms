@@ -45,6 +45,7 @@ MIDDLEWARE = [
     "django.contrib.messages.middleware.MessageMiddleware",
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
 
+    # 3rd Party
     "django_browser_reload.middleware.BrowserReloadMiddleware",
 ]
 
@@ -53,7 +54,8 @@ ROOT_URLCONF = "main.urls"
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
-        "DIRS": [os.path.join(BASE_DIR, "themes/templates")],
+        "DIRS": [os.path.join(BASE_DIR, "templates")],
+        # "DIRS": [os.path.join(BASE_DIR, "theme/templates")],
         "APP_DIRS": True,
         "OPTIONS": {
             "context_processors": [
